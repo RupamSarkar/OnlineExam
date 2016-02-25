@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Javascript functions  -->
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/question.js"></script>
+    </head>
+    <body>
+    <nav class="waves-effect waves-light btn-large" role="navigation">
+          <h6 class="brand-logo center">Question Paper Setter Page</h6>
+    
+  </nav>
+
+     
+        <div class="row">
+           
+      <div class="col s3">
+       <div class="collection" id="collection1" >
+        <a href="javascript:void(0);" class="collection-item" id="mcq" >Multiple Choice</a>
+        <a href="javascript:void(0);" class="collection-item" id="tf"  >True/False</a>
+        <a href="javascript:void(0);" class="collection-item" id="check_box">Check Box</a>
+        <a href="javascript:void(0);" class="collection-item" id="fill_blank">Fill in the blanks</a>
+      </div>
+      </div>
+
+      <div class="col s9" >
+        <div class="row">
+            <div id="headertext">
+                </br>
+                </br>
+                <h1 class="center teal-text" id="hh">Welcome</h1>
+            </div>
+          <form class="col s12" id="form1">
+            <div class="row">
+               <div class="input-field col s12">
+                  
+                   <textarea id="textarea1" class="materialize-textarea"></textarea>
+                   <label for="textarea1">Question field</label>
+               </div>
+              
+                <br/><br/>
+             
+              <h6 class="teal-text">Option Field</h6>
+             <br/>
+        
+           
+             
+             <div class="input-field row s6">
+              <i class="small material-icons prefix">label</i>
+             <input placeholder="Write 1st Option" id="option1" type="text" class="validate">
+             <label for="option1">Option 1</label>
+             </div>
+             <div class="input-field row s6">
+              <i class="small material-icons prefix">label</i>
+             <input placeholder="Write 2nd Option" id="option2" type="text" class="validate">
+             <label for="option2">Option 2</label>
+             </div>
+                <div class="input-field row s6">
+              <i class="small material-icons prefix">label</i>
+             <input placeholder="Write 3rd Option" id="option3" type="text" class="validate">
+             <label for="option2">Option 3</label>
+             </div>
+                <div class="input-field row s6">
+              <i class="small material-icons prefix">label</i>
+             <input placeholder="Write 4th Option" id="option2" type="text" class="validate">
+             <label for="option2">Option 4</label>
+             </div>
+ 
+            <h6 class="teal-text">Correct Answer</h6>
+             
+    <p>
+      <input class="with-gap"  name="group1" type="radio" id="test1" />
+      <label for="test1">Option 1</label>
+    </p>
+    <p>
+      <input class="with-gap"  name="group1" type="radio" id="test2" />
+      <label for="test2">Option 2</label>
+    </p>
+    <p>
+      <input  class="with-gap" name="group1" type="radio" id="test3"  />
+      <label for="test3">Option 3</label>
+    </p>
+      <p>
+        <input  class="with-gap"  name="group1" type="radio" id="test4"  />
+        <label for="test4">Option 4</label>
+    </p>
+     
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+           
+            </div>
+            
+    </form>
+          
+             </div>
+  </div>
+      </div>
+       
+    
+    </body>
+</html>
